@@ -13,7 +13,8 @@ public class CheckoutProduct extends BaseTest{
 	
 	
 	String ProdName="Sauce Labs Bolt T-Shirt";
-	@Test()
+	
+	@Test
 	public void checkoutItem() {
 
 		LoginPage loginPage=new LoginPage(driver);

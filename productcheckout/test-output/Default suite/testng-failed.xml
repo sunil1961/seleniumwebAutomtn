@@ -6,7 +6,8 @@
       <class name="tests.CheckoutProduct">
         <methods>
           <include name="beforeTest"/>
-          <include name="checkout"/>
+          <include name="afterTest"/>
+          <include name="checkoutItem"/>
         </methods>
       </class> <!-- tests.CheckoutProduct -->
     </classes>
